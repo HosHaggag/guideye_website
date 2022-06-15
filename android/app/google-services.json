@@ -1,0 +1,83 @@
+{
+  "project_info": {
+    "project_number": "318867737038",
+    "firebase_url": "https://guideye-b8330-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "guideye-b8330",
+    "storage_bucket": "guideye-b8330.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318867737038:android:e0b2d5df68106f5e04439f",
+        "android_client_info": {
+          "package_name": "com.cce.guideye"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318867737038-n4li3uhjthkl1f24h6407ael3gj8nnp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTh1ic9DrC3rIDwhaufS13swtMxC0adyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318867737038-n4li3uhjthkl1f24h6407ael3gj8nnp1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "318867737038-hsqdvf5m408spq58lp9o3679fipr7scs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.guideye"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318867737038:android:6b02c13caea582cc04439f",
+        "android_client_info": {
+          "package_name": "com.example.guideye_website"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318867737038-n4li3uhjthkl1f24h6407ael3gj8nnp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTh1ic9DrC3rIDwhaufS13swtMxC0adyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318867737038-n4li3uhjthkl1f24h6407ael3gj8nnp1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "318867737038-hsqdvf5m408spq58lp9o3679fipr7scs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.guideye"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
