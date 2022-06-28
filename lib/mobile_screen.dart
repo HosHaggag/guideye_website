@@ -1,10 +1,20 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class MobileScreen extends StatelessWidget {
   const MobileScreen({
     Key? key,
   }) : super(key: key);
+
+  Future<void> _launchInBrowser(Uri url) async {
+    if (!await launchUrl(
+      url,
+      mode: LaunchMode.externalApplication,
+    )) {
+      throw 'Could not launch $url';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +32,7 @@ class MobileScreen extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: SizedBox(
-              height: 200,
+              height: 250,
               child: DefaultTextStyle(
                 textAlign: TextAlign.center,
                 style: const TextStyle(
@@ -69,11 +79,11 @@ class MobileScreen extends StatelessWidget {
                     padding: const EdgeInsets.all(16.0),
                     child: InkWell(
                       onTap: () {
-                        // _launchInBrowser(
-                        //   Uri.parse(
-                        //     'https://play.google.com/store/apps/details?id=com.cce.guideye',
-                        //   ),
-                        // );
+                        _launchInBrowser(
+                          Uri.parse(
+                            'https://guideye-b8330.firebaseapp.com',
+                          ),
+                        );
                       },
                       child: Image.asset(
                         'images/google_play.png',
